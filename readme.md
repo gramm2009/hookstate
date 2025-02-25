@@ -1,6 +1,7 @@
 ### Запуск проекта:
-git clone ...
-npm i && npm start
+> git clone ...
+> 
+> npm i && npm start
 
 
 ### Краткий вывод о пользовании стейтменеджером:
