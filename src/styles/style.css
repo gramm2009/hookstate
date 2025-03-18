@@ -1,31 +1,80 @@
-.block{
+*{
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.block {
   display: flex;
   flex-direction: column;
 }
 
-.example{
- display: flex;
- align-items: baseline;
- margin-bottom: 10px;
- height: fit-content;
+.header{
+  background: pink;
+  margin-bottom: 15px;
 }
 
-.btn{
-  margin-right: 10px;
+.header-title{
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4px;
 }
 
-.good{
+.example {
+  background-color: aliceblue;
+  margin-bottom: 25px;
+}
+
+.example-title {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  width: fit-content;
+  margin-bottom: 2px;
+}
+
+.example-body {
+  display: flex;
+  align-items: center;
+  height: 30px;
+}
+
+.example-noty {
+  background-color: aqua;
+}
+
+.example-footer{
+  background-color: rgb(231, 226, 226);
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.good {
   background: yellowgreen;
 }
 
-.bad{
+.bad {
   background: red;
 }
 
-p{
-  width: fit-content;
-  max-width: 550px;
-  background: aqua;
-  margin-right: 15px;
+.warning{
+  background-color: yellow;
 }
 
+.hand-right{
+  margin-right: 10px;
+}
+
+.mb15{
+  margin-bottom: 15px;
+}
