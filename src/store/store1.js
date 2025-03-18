@@ -5,7 +5,7 @@ import { devtools } from '@hookstate/devtools';
 const initData = {
   a1:1,
   obj1:{},
-  obj11:{},
+  obj11:{a1:1},
   obj3:{
     a1:{
       a2:{
